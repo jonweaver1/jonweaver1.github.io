@@ -1,0 +1,57 @@
+.about {
+  padding: 2rem;
+  text-align: center;
+}
+
+.about h1 {
+  color: #80deea;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 8px #004d61;
+}
+
+.about-story, .about-mission, .about-values, .about-team {
+  background: rgba(0, 30, 60, 0.7);
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(77, 208, 225, 0.5);
+}
+
+.about h2 {
+  color: #7dd3fc;
+  margin-bottom: 1rem;
+}
+
+.about p, .about li {
+  color: #cfd8dc;
+  line-height: 1.6;
+}
+
+.about-values ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-values li {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.team-member {
+  display: inline-block;
+  margin: 1rem;
+  text-align: center;
+}
+
+.team-member img {
+  max-width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 12px rgba(77, 208, 225, 0.6);
+  margin-bottom: 0.5rem;
+}
+
+.team-member h3 {
+  color: #7dd3fc;
+  margin-bottom: 0.3rem;
+}

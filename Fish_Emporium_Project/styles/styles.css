@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Open+Sans:wght@400&family=Chewy&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Body background */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #e0f7fa;
+  background: linear-gradient(to bottom right, #000b48, #000208);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #80deea;
+  text-shadow: 0 0 8px #004d61;
+}
+/* Header */
+header {
+  background: rgba(0, 20, 40, 0.9);
+  padding: 1.5rem;
+  text-align: center;
+  border-bottom: 2px solid #004d61;
+}
+
+header h2 {
+  color: #7dd3fc;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 8px #004d61;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #b2ebf2;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #4dd0e1;
+}
+
+/* Hero section */
+.hero {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem;
+}
+nav a, button, figcaption {
+  font-family: 'Chewy', cursive;
+  font-size: 25px;
+}
+
+
+.hero figure {
+  margin: 0;
+}
+
+.hero img {
+  width: 60%;
+  height: auto;
+  
+}
+
+.hero .mission {
+  max-width: 600px;
+  justify-self: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #80deea;
+  text-shadow: 0 0 12px #004d61;
+}
+
+.hero p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #cfd8dc;
+}
+
+.button {
+  background-color: #00796b;
+  color: #e0f2f1;
+  border: none;
+  padding: 12px 24px;
+  margin: 0.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #004d40;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background-color: #03987f;
+  transform: scale(1.05);
+  font-family: 'Chewy', cursive;
+  font-size: 20px;
+}
+
+/* Footer */
+footer {
+  background: rgba(0, 20, 40, 0.9);
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #b2ebf2;
+  border-top: 2px solid #004d61;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero figure {
+    margin-bottom: 2rem;
+  }
+}

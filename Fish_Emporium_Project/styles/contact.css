@@ -1,0 +1,92 @@
+.contact {
+  padding: 2rem;
+  text-align: center;
+}
+
+.contact h1 {
+  color: #80deea;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 8px #004d61;
+}
+
+.contact p {
+  margin-bottom: 2rem;
+  color: #cfd8dc;
+}
+
+/* Contact Form */
+.contact-form {
+  background: rgba(0, 30, 60, 0.7);
+  padding: 2rem;
+  margin: 0 auto 2rem;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(77, 208, 225, 0.5);
+  text-align: left;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #7dd3fc;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+.contact-form button {
+  background-color: #00796b;
+  color: #e0f2f1;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-form button:hover {
+  background-color: #004d40;
+  transform: scale(1.05);
+}
+
+/* Contact Info */
+.contact-info {
+  margin: 2rem auto;
+  max-width: 600px;
+  background: rgba(0, 20, 40, 0.8);
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.contact-info h2 {
+  color: #7dd3fc;
+  margin-bottom: 1rem;
+}
+
+/* Social Links */
+.contact-social ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-social li {
+  margin: 0.5rem 0;
+}
+
+.contact-social a {
+  color: #4dd0e1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-social a:hover {
+  color: #b2ebf2;
+}
